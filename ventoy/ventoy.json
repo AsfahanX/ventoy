@@ -1,5 +1,14 @@
 {
     "control":[
         { "VTOY_DEFAULT_SEARCH_ROOT": "/ISO" }
+    ],
+    "auto_install":[
+        {
+            "parent": "/ISO/Windows 11",
+            "template":[
+                "/ventoy/script/_win_11_bypass_NRO.xml"
+            ],
+            "autosel": 1
+        }
     ]
 }
