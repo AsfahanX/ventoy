@@ -6,9 +6,40 @@
         {
             "parent": "/ISO/Windows 11",
             "template":[
-                "/ventoy/script/_win_11_bypass_NRO.xml"
+                "/ventoy/script/_win_11_bypass_NRO.xml",
+                "/ventoy/script/_win_11_full_auto.xml",
+                "/ventoy/script/_win_11_full_auto_with_username.xml"
             ],
-            "autosel": 1
+            "autosel": 1,
+            "timeout": 0
+        },
+        {
+            "parent": "/ISO/Windows 10",
+            "template":[
+                "/ventoy/script/_win_10_full_auto.xml",
+                "/ventoy/script/_win_10_full_auto_with_username.xml"
+            ],
+            "autosel": 0,
+            "timeout": 0
+        },
+        {
+            "parent": "/ISO/Windows 8",
+            "template":[
+                "/ventoy/script/_win_8_bypass_product_key.xml",
+                "/ventoy/script/_win_8_full_auto.xml",
+                "/ventoy/script/_win_8_full_auto_with_username.xml"
+            ],
+            "autosel": 1,
+            "timeout": 0
+        },
+        {
+            "parent": "/ISO/Windows 7",
+            "template":[
+                "/ventoy/script/_win_7_full_auto.xml",
+                "/ventoy/script/_win_7_full_auto_with_username.xml"
+            ],
+            "autosel": 0,
+            "timeout": 0
         }
     ]
 }
