@@ -10,8 +10,8 @@
                 "/ventoy/script/_win_11_full_auto.xml",
                 "/ventoy/script/_win_11_full_auto_with_username.xml"
             ],
-            "autosel": 1,
-            "timeout": 0
+            "timeout": 0,
+            "autosel": 1
         },
         {
             "parent": "/ISO/Windows 10",
@@ -19,8 +19,8 @@
                 "/ventoy/script/_win_10_full_auto.xml",
                 "/ventoy/script/_win_10_full_auto_with_username.xml"
             ],
-            "autosel": 0,
-            "timeout": 0
+            "timeout": 0,
+            "autosel": 0
         },
         {
             "parent": "/ISO/Windows 8",
@@ -29,8 +29,8 @@
                 "/ventoy/script/_win_8_full_auto.xml",
                 "/ventoy/script/_win_8_full_auto_with_username.xml"
             ],
-            "autosel": 1,
-            "timeout": 0
+            "timeout": 0,
+            "autosel": 1
         },
         {
             "parent": "/ISO/Windows 7",
@@ -38,8 +38,8 @@
                 "/ventoy/script/_win_7_full_auto.xml",
                 "/ventoy/script/_win_7_full_auto_with_username.xml"
             ],
-            "autosel": 0,
-            "timeout": 0
+            "timeout": 0,
+            "autosel": 0
         }
     ]
 }
