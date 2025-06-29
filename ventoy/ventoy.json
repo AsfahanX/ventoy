@@ -2,6 +2,13 @@
     "control":[
         { "VTOY_DEFAULT_SEARCH_ROOT": "/ISO" }
     ],
+    "theme":{
+        "file":[
+            "/ventoy/themes/ventoy/theme.txt",
+            "/ventoy/themes/old-ventoy/theme.txt"
+        ],
+        "default_file": 1
+    },
     "auto_install":[
         {
             "parent": "/ISO/Windows 11",
